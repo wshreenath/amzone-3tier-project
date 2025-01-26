@@ -42,7 +42,7 @@
 											)
 
 								lifecycle {
-											prevent_destroy = fasle
+											#prevent_destroy = false
 											ignore_changes  = all
 										  }
 				}
