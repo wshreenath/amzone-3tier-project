@@ -31,7 +31,7 @@
 													  }
 									user_data = base64encode(file("apache.sh"))
 									lifecycle {
-												prevent_destroy = false
+												#prevent_destroy = false
 												ignore_changes  = all
 											}
 						}
